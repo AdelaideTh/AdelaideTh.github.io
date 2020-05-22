@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adelaide's Website</title>
+    <style>
+      body {
+        font-family: Helvectica, sans-serif;
+      }    
+      nav {
+        background: rgb(250, 250, 150);
+        border-radius: 10px 100px / 120px;
+        margin: 10px;
+        margin-top: 25px;
+        max-width: 800px;
+        padding: 1px;
+      }
+      #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: baseline;
+      }
+      #navlink {
+        padding-right: 10px;
+      }
+      nav li {
+        display: inline-block;
+      }
+      .sidebar {
+        position:fixed;
+        width: 80px;
+        right: 10px;
+        z-index: 100;
+      }
+      #intlist {
+        background: rgb(15,150,255);
+        border-radius: 10px 100px / 120px;
+        padding: 5px 30px;
+      }
+      .content {
+        background: rgb(250,250,150);
+        border-radius: 10px 100px / 120px;
+        padding: 25px;
+        margin: 15px;
+        max-width: 800px;
+      }
+      body{
+          background-image: url('https://cdn.pixabay.com/photo/2016/01/16/01/00/blue-1142745_960_720.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+      }
+      h5{
+        position:relative;
+        left:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all-contents">
+      <nav id="navbar">
+          <ul id="navlink">
+            <li class="links"><a href="index.html">Home</a></li>
+            <li class="links"><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+      </nav>
+  <main>
+    <div class="sidebar">   
+      <a href="https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon)"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/206.png"  title="Dunsparce Wiki" alt="Dunparce Wiki"></a>
+    </div>         
+    <div left class="photo">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/206.png"
+             style="position:relative; left:50px">
+      <h5><i>Dunsparce is my spirit animal because he clearly want to be in bed.</i></h5>
+    </div>
+    <div class="content">
+      <h1>Adelaide Thompson</h1>
+      <h5>The coolest kid</h5>
+      <p> Benjamin Franklin High School student </p>
+      <section id="intrests">
+        <header><b>My intrests:</b></header>
+        <ul id="intlist">
+           <li>Video games</li>
+           <li>Programming</li>
+           <li>Drawing</li>
+            <li>Fancy borders</li>
+         </ul>
+      </section>
+    </div>
+  </main>
+    </div>
+  </body>
+</html>
